@@ -1,0 +1,17 @@
+作用：
+    自动换行的ViewGroup
+使用方法：
+    将children view直接放到该ViewGroup，即可实现自动换行。
+指定行间距：
+    1. 自定义属性：
+        <declare-styleable name="PredicateLayout">
+        <attr name="lineSpan" format="dimension" />
+        </declare-styleable>
+    2. 指定属性值：
+        xmlns:app="http://schemas.android.com/apk/res/your_package_name"
+        ...
+        <com.package.name.PredicateLayout
+            .... 
+            app:lineSpan="15dp" >
+
+
